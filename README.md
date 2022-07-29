@@ -1,8 +1,8 @@
 # Foodie_app
 
-## Home screen
+## Home screen                                                             ## Route Screen
 
-![image](https://user-images.githubusercontent.com/95683403/181836891-2579ab4a-e3d7-46b5-ba26-42b9315b6add.png) -> ![image](https://user-images.githubusercontent.com/95683403/181837715-d6e5f304-738e-4ce6-ac45-c94488599ad2.png)
+![image](https://user-images.githubusercontent.com/95683403/181836891-2579ab4a-e3d7-46b5-ba26-42b9315b6add.png)      ![image](https://user-images.githubusercontent.com/95683403/181837715-d6e5f304-738e-4ce6-ac45-c94488599ad2.png)
 
 
 
