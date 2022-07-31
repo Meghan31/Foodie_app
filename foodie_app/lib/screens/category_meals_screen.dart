@@ -1,13 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter_complete_guide/models/category.dart';
 import 'package:flutter_complete_guide/widgets/meal_item.dart';
 import '../dummy_data.dart';
 
 class categoryMealsScreen extends StatelessWidget {
   const categoryMealsScreen({Key key}) : super(key: key);
-
+  static const routeName = '/category-meals';
   @override
   Widget build(BuildContext context) {
     final routeArgs =
@@ -24,6 +21,7 @@ class categoryMealsScreen extends StatelessWidget {
       body: ListView.builder(
         itemBuilder: (ctx, index) {
           return MealItem(
+            id: categoryMeals[index].id,
             title: categoryMeals[index].title,
             imageUrl: categoryMeals[index].imageUrl,
             duration: categoryMeals[index].duration,
