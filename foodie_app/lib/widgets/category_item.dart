@@ -5,8 +5,9 @@ class CategoryItem extends StatelessWidget {
   final String id;
   final String title;
   final Color color;
+  final String image;
 
-  CategoryItem(this.id, this.title, this.color);
+  CategoryItem(this.id, this.title, this.color, this.image);
 
   void selectCategory(BuildContext ctx) {
     Navigator.of(ctx).pushNamed(
@@ -14,6 +15,7 @@ class CategoryItem extends StatelessWidget {
       arguments: {
         'id': id,
         'title': title,
+        'image': image,
       },
     );
   }
@@ -25,16 +27,38 @@ class CategoryItem extends StatelessWidget {
       splashColor: Theme.of(context).primaryColor,
       borderRadius: BorderRadius.circular(15),
       child: Container(
-        padding: const EdgeInsets.all(15),
-        child: Text(
-          title,
-          style: Theme.of(context).textTheme.subtitle1,
+        // padding: const EdgeInsets.all(15),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: <Widget>[
+            ClipRRect(
+              borderRadius: BorderRadius.only(
+                topLeft: Radius.circular(15),
+                topRight: Radius.circular(15),
+              ),
+              child: Image.network(
+                image,
+                height: 125,
+                width: double.infinity,
+                fit: BoxFit.cover,
+              ),
+            ),
+            SizedBox(
+              height: 10,
+            ),
+            Center(
+              child: Text(
+                title,
+                style: Theme.of(context).textTheme.subtitle1,
+              ),
+            ),
+          ],
         ),
         decoration: BoxDecoration(
           gradient: LinearGradient(
             colors: [
               color.withOpacity(0.7),
-              color,
+              Colors.white,
             ],
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
