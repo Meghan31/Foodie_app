@@ -5,55 +5,66 @@ import './models/meal.dart';
 
 const DUMMY_CATEGORIES = const [
   Category(
-    id: 'c1',
-    title: 'Italian',
-    color: Colors.purple,
-  ),
+      id: 'c1',
+      title: 'Italian',
+      color: Colors.purple,
+      image:
+          'https://thumbs.dreamstime.com/b/colosseum-rome-morning-sun-italy-view-europe-72649344.jpg'),
   Category(
     id: 'c2',
     title: 'Quick & Easy',
     color: Colors.red,
+    image:
+        'https://res.cloudinary.com/yuppiechef/image/upload/v1464625535/blog/yuppiechef/chefs-knife_lazrli.jpg',
   ),
   Category(
-    id: 'c3',
-    title: 'Hamburgers',
-    color: Colors.orange,
-  ),
+      id: 'c3',
+      title: 'Hamburgers',
+      color: Colors.orange,
+      image:
+          'https://assets.epicurious.com/photos/57c5c6d9cf9e9ad43de2d96e/master/w_1280%2Cc_limit/the-ultimate-hamburger.jpg'),
   Category(
-    id: 'c4',
-    title: 'German',
-    color: Colors.amber,
-  ),
+      id: 'c4',
+      title: 'German',
+      color: Colors.amber,
+      image:
+          'https://www.planetware.com/wpimages/2019/02/germany-best-places-to-visit-cologne.jpg'),
   Category(
-    id: 'c5',
-    title: 'Light & Lovely',
-    color: Colors.blue,
-  ),
+      id: 'c5',
+      title: 'Light & Lovely',
+      color: Colors.blue,
+      image:
+          'https://img.freepik.com/free-photo/salad-from-tomatoes-cucumber-red-onions-lettuce-leaves-healthy-summer-vitamin-menu-vegan-vegetable-food-vegetarian-dinner-table-top-view-flat-lay_2829-6482.jpg?w=1060&t=st=1659468995~exp=1659469595~hmac=efe12c3be46a381b5bab928aad6a3a2fc4823b2027484a90c2ed31abdc1f33e4'),
   Category(
-    id: 'c6',
-    title: 'Exotic',
-    color: Colors.green,
-  ),
+      id: 'c6',
+      title: 'Exotic',
+      color: Colors.green,
+      image:
+          'https://cdn.pixabay.com/photo/2017/05/01/05/18/pastry-2274750_1280.jpg'),
   Category(
-    id: 'c7',
-    title: 'Breakfast',
-    color: Colors.lightBlue,
-  ),
+      id: 'c7',
+      title: 'Breakfast',
+      color: Colors.lightBlue,
+      image:
+          'https://cdn.pixabay.com/photo/2018/07/10/21/23/pancake-3529653_1280.jpg'),
   Category(
-    id: 'c8',
-    title: 'Asian',
-    color: Colors.lightGreen,
-  ),
+      id: 'c8',
+      title: 'Asian',
+      color: Colors.lightGreen,
+      image:
+          'https://heyexplorer.com/wp-content/uploads/2020/10/3-India-Taj-Mahal-2-1024x678.jpg'),
   Category(
-    id: 'c9',
-    title: 'French',
-    color: Colors.pink,
-  ),
+      id: 'c9',
+      title: 'French',
+      color: Colors.pink,
+      image:
+          'https://theboutiqueadventurer.com/wp-content/uploads/2021/01/sunrise-in-paris-from-the-trocadero-fountains-768x512.jpg.webp'),
   Category(
-    id: 'c10',
-    title: 'Summer',
-    color: Colors.teal,
-  ),
+      id: 'c10',
+      title: 'Summer',
+      color: Colors.teal,
+      image:
+          'https://img.freepik.com/free-vector/summer-landscape-background-zoom_52683-42067.jpg?w=1060&t=st=1659469650~exp=1659470250~hmac=ce44cd865c948cea722b49e7ad7a383344806673db3ea3241274420961f1d095'),
 ];
 
 const DUMMY_MEALS = [
