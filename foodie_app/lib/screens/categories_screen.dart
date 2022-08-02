@@ -14,13 +14,14 @@ class CategoriesScreen extends StatelessWidget {
               catData.id,
               catData.title,
               catData.color,
+              catData.image,
             ),
           )
           .toList(),
       gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
-        maxCrossAxisExtent: 200,
-        childAspectRatio: 3 / 2,
-        crossAxisSpacing: 20,
+        maxCrossAxisExtent: 500,
+        childAspectRatio: 4 / 2,
+        crossAxisSpacing: 15,
         mainAxisSpacing: 20,
       ),
     );
