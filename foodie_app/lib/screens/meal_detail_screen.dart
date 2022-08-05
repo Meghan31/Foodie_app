@@ -6,14 +6,11 @@ import '../models/meal.dart';
 import '../dummy_data.dart';
 import 'dart:math';
 
-class step {
-  String line;
-  step(this.line);
-}
-
 class MealDetailScreen extends StatelessWidget {
-  const MealDetailScreen({Key key}) : super(key: key);
   static const routeName = '/meal-detail';
+  final Function toggleFavorite;
+  final Function isFavorite;
+  const MealDetailScreen(this.toggleFavorite, this.isFavorite);
 
   Widget buildSectionTitle(BuildContext context, String text) {
     return Container(
@@ -46,7 +43,9 @@ class MealDetailScreen extends StatelessWidget {
     final selectedMeal = DUMMY_MEALS.firstWhere((meal) => meal.id == mealId);
 
     return Scaffold(
-      appBar: AppBar(title: Text('${selectedMeal.title}')),
+      appBar: AppBar(
+        title: Text('${selectedMeal.title}'),
+      ),
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -134,11 +133,10 @@ class MealDetailScreen extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         child: Icon(
-          Icons.delete,
+          isFavorite(mealId) ? Icons.favorite_outlined : Icons.favorite_border,
+          color: Colors.pink,
         ),
-        onPressed: () {
-          Navigator.of(context).pop(mealId);
-        },
+        onPressed: () => toggleFavorite(mealId),
       ),
     );
   }
