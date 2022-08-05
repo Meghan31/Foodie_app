@@ -155,9 +155,9 @@ const DUMMY_MEALS = [
       'Serve burger with tomato, cucumber and onion'
     ],
     false,
-    false,
-    false,
     true,
+    false,
+    false,
   ),
   Meal(
     'm4',
@@ -224,8 +224,8 @@ const DUMMY_MEALS = [
       'Add salmon cubes and dressing'
     ],
     true,
-    false,
     true,
+    false,
     true,
   ),
   Meal(
@@ -260,8 +260,8 @@ const DUMMY_MEALS = [
     ],
     true,
     false,
-    true,
     false,
+    true,
   ),
   Meal(
     'm7',
@@ -290,8 +290,8 @@ const DUMMY_MEALS = [
     ],
     true,
     false,
-    true,
     false,
+    true,
   ),
   Meal(
     'm8',
@@ -321,9 +321,9 @@ const DUMMY_MEALS = [
       'Serve with rice'
     ],
     true,
-    false,
-    false,
     true,
+    false,
+    false,
   ),
   Meal(
     'm9',
@@ -370,8 +370,8 @@ const DUMMY_MEALS = [
     ],
     true,
     false,
-    true,
     false,
+    true,
   ),
   Meal(
     'm10',
