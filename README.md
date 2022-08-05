@@ -14,7 +14,7 @@
 
 ## Favourites Screen
 
-![image](https://user-images.githubusercontent.com/95683403/183139719-662cf0d4-97d0-4858-9651-433f3a5678a3.png)  ![image](https://user-images.githubusercontent.com/95683403/183139909-cb135f7b-e0cb-4a78-8d08-bf0fd4d0b243.png)
+![image](https://user-images.githubusercontent.com/95683403/183139719-662cf0d4-97d0-4858-9651-433f3a5678a3.png)![image](https://user-images.githubusercontent.com/95683403/183139909-cb135f7b-e0cb-4a78-8d08-bf0fd4d0b243.png)
 
 
 ## TabScreen
@@ -24,9 +24,10 @@
 
 ## Filters Screen
 
-![image](https://user-images.githubusercontent.com/95683403/183140996-2103b0e6-20b9-475f-8571-c1431df6a7e4.png)
+![image](https://user-images.githubusercontent.com/95683403/183140996-2103b0e6-20b9-475f-8571-c1431df6a7e4.png)![image](https://user-images.githubusercontent.com/95683403/183144883-c3b7afcc-d09d-4837-b076-4c67ee9ded14.png)
 
-![image](https://user-images.githubusercontent.com/95683403/183141197-683e7a0a-ebd2-4a95-ab5b-55460c7a390e.png)  ![image](https://user-images.githubusercontent.com/95683403/183141462-ec7dbc0d-94a2-410c-ba4a-0664b031b9f3.png) 
+
+![image](https://user-images.githubusercontent.com/95683403/183144698-53696cfd-af93-4356-ae61-b845bdef3d72.png)
 
 
 
