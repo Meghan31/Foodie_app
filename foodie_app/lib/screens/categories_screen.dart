@@ -4,6 +4,7 @@ import '../dummy_data.dart';
 import '../widgets/category_item.dart';
 
 class CategoriesScreen extends StatelessWidget {
+  static const routeName = '/categoryscreen';
   @override
   Widget build(BuildContext context) {
     return GridView(
@@ -23,6 +24,11 @@ class CategoriesScreen extends StatelessWidget {
         childAspectRatio: 4 / 2,
         crossAxisSpacing: 15,
         mainAxisSpacing: 20,
+
+        // maxCrossAxisExtent: 200,
+        // childAspectRatio: 3 / 2,
+        // crossAxisSpacing: 20,
+        // mainAxisSpacing: 20,
       ),
     );
   }
