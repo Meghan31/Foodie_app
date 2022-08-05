@@ -24,10 +24,10 @@
 
 ## Filters Screen
 
-![image](https://user-images.githubusercontent.com/95683403/183140996-2103b0e6-20b9-475f-8571-c1431df6a7e4.png)![image](https://user-images.githubusercontent.com/95683403/183144883-c3b7afcc-d09d-4837-b076-4c67ee9ded14.png)
+![image](https://user-images.githubusercontent.com/95683403/183140996-2103b0e6-20b9-475f-8571-c1431df6a7e4.png)
 
 
-![image](https://user-images.githubusercontent.com/95683403/183144698-53696cfd-af93-4356-ae61-b845bdef3d72.png)
+![image](https://user-images.githubusercontent.com/95683403/183144698-53696cfd-af93-4356-ae61-b845bdef3d72.png)![image](https://user-images.githubusercontent.com/95683403/183144883-c3b7afcc-d09d-4837-b076-4c67ee9ded14.png)
 
 
 
