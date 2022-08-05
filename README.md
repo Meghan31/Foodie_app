@@ -2,7 +2,7 @@
 
 ## Home Screen
 
-![image](https://user-images.githubusercontent.com/95683403/183137957-48ac8c8c-505b-44d5-a17d-07c6ad51a65a.png)
+![image](https://user-images.githubusercontent.com/95683403/183142548-c3674c40-5cc9-4507-a82c-d2695be97536.png)
 
 
 
@@ -18,14 +18,14 @@
 
 ## TabScreen
 
-![image](https://user-images.githubusercontent.com/95683403/183140563-e2e4e9c3-e8fe-4361-b7f9-c2c2111b3215.png)
+![image](https://user-images.githubusercontent.com/95683403/183142345-eaf4d730-1bc9-46f7-8639-b078e84d546e.png)
 
 
 ## Filters Screen
 
 ![image](https://user-images.githubusercontent.com/95683403/183140996-2103b0e6-20b9-475f-8571-c1431df6a7e4.png)
 
-![image](https://user-images.githubusercontent.com/95683403/183141197-683e7a0a-ebd2-4a95-ab5b-55460c7a390e.png) ![image](https://user-images.githubusercontent.com/95683403/183141462-ec7dbc0d-94a2-410c-ba4a-0664b031b9f3.png) 
+![image](https://user-images.githubusercontent.com/95683403/183141197-683e7a0a-ebd2-4a95-ab5b-55460c7a390e.png) <--              []               --->  ![image](https://user-images.githubusercontent.com/95683403/183141462-ec7dbc0d-94a2-410c-ba4a-0664b031b9f3.png) 
 
 
 
