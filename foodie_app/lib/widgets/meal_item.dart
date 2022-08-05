@@ -20,15 +20,15 @@ List<Category> _categories = [
 ];
 
 class MealItem extends StatelessWidget {
-  const MealItem(
-      {Key key,
-      this.id,
-      this.title,
-      this.imageUrl,
-      this.duration,
-      this.complexity,
-      this.affordability})
-      : super(key: key);
+  const MealItem({
+    Key key,
+    this.id,
+    this.title,
+    this.imageUrl,
+    this.duration,
+    this.complexity,
+    this.affordability,
+  }) : super(key: key);
   final String id;
   final String title;
   final String imageUrl;
@@ -61,10 +61,16 @@ class MealItem extends StatelessWidget {
   }
 
   void selectMeal(BuildContext context) {
-    Navigator.of(context).pushNamed(
+    Navigator.of(context)
+        .pushNamed(
       MealDetailScreen.routeName,
       arguments: id,
-    );
+    )
+        .then((result) {
+      if (result != null) {
+        // removeItem(result);
+      }
+    });
   }
 
   @override
