@@ -8,8 +8,9 @@
 
 ## Category Screen <-----------> Category Meals Screen
 
+![image](https://user-images.githubusercontent.com/95683403/183143908-005acda9-7d2b-49a6-a47c-d114341af254.png)![image](https://user-images.githubusercontent.com/95683403/183144344-d7ff445d-8445-4c8d-bb42-cb7b1f178483.png)
 
-![image](https://user-images.githubusercontent.com/95683403/183139106-2fcb62b3-5ea0-4ba0-b98e-ba120910d4fe.png)  ![image](https://user-images.githubusercontent.com/95683403/183139463-f4a214f9-062c-4b35-b4d0-ead29b90d80b.png)
+
 
 ## Favourites Screen
 
