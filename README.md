@@ -31,7 +31,8 @@
 
 
 
+## Rotated Screen
 
-
+![image](https://user-images.githubusercontent.com/95683403/184412680-7a78e3f9-ce3b-4ba3-9112-e465b9617c58.png)
 
 
